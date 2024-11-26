@@ -2,20 +2,20 @@
 
 # Projeto Final da matéria de Banco de Dados da matéria Matemática
 
-**Integrantes:**
+## Integrantes:
 
-Fernanda Louro
-Jéssica Prestelo
-Matheus Couto
-Sarah Ribeiro
-Vinicius Pereira
-Vinicius Valverde
+- Fernanda Louro
+- Jéssica Prestelo
+- Matheus Couto
+- Sarah Ribeiro
+- Vinicius Pereira
+- Vinicius Valverde
 
-**Descrição:**
+## Descrição:
 
 O projeto consiste em um banco de dados para um portal de matemática, com todas as funcionalidades e conteúdo do portal integrados ao banco. O projeto contempla o desenvolvimento de um Modelo Entidade-Relacionamento (MER) e um Diagrama de Entidades e Relacionamentos (DER), além das queries SQL.
 
-**Papel de cada integrante:**
+## Papel de cada integrante:
 
 - Fernanda Louro: Página de Simulado
 - Jéssica Prestelo: Página de Entrevistas e Dicas
@@ -24,11 +24,11 @@ O projeto consiste em um banco de dados para um portal de matemática, com todas
 - Vinicius Pereira: Página da Sobre nós
 - Vinicius Valverde: Header e Footer das páginas e Página de Notícias
 
-**Modelo Entidade-Relacionamento (MER):**
+## Modelo Entidade-Relacionamento (MER):
 
 O MER de cada página foi desenvolvido no bloco de notas e está disponível nas prints abaixo:
 
 
-**Diagrama de Entidades e Relacionamentos (DER):**
+## Diagrama de Entidades e Relacionamentos (DER):
 
 O DER foi desenvolvido no software Miro e está disponível no link: https://miro.com/welcomeonboard/VDY4aUxLdUJOTWpUVWJLVU9yWGJpMWN4QVpnK0VsWnJ0YzNPeU9mSjY0QUQzS1lnY1pKM3ppbzBXcjJ3cnNVTmRJYXpTNU8yQzRlUlhELzY1UTVQcTc4SFFHdVpacUw2YTZNYTNxQ2hLQ2xnbFNGQ2FHUzkxMjdTZEhFdzZrT0UhZQ==?share_link_id=107129112936
