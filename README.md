@@ -1,5 +1,3 @@
-## Projeto Final Banco de Dados
-
 # Projeto Final da matéria de Banco de Dados da matéria Matemática
 
 ## Integrantes:
