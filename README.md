@@ -17,17 +17,16 @@ O projeto consiste em um banco de dados para um portal de matemática, com todas
 
 ## Papel de cada integrante:
 
-- Fernanda Louro: Página de Simulado
-- Jéssica Prestelo: Página de Entrevistas e Dicas
-- Matheus Couto: Página de Carreiras e Estágios
-- Sarah Ribeiro: Página Home
-- Vinicius Pereira: Página da Sobre nós
-- Vinicius Valverde: Header e Footer das páginas e Página de Notícias
+- **Fernanda Louro:** Página de Simulado
+- **Jéssica Prestelo:** Página de Entrevistas e Dicas
+- **Matheus Couto:** Página de Carreiras e Estágios
+- **Sarah Ribeiro:** Página Home
+- **Vinicius Pereira:** Página da Sobre nós
+- **Vinicius Valverde:** Header e Footer das páginas e Página de Notícias
 
 ## Modelo Entidade-Relacionamento (MER):
 
 O MER de cada página foi desenvolvido no bloco de notas e está disponível nas prints abaixo:
-
 
 ## Diagrama de Entidades e Relacionamentos (DER):
 
