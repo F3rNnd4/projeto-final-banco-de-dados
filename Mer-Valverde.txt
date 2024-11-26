@@ -1,0 +1,21 @@
+Entidades:
+
+Autores;
+Notícias;
+
+Atributos:
+
+Autores:
+- id
+- Nome
+
+Notícias 
+- id
+- Título 
+- Descrição 
+- Imagem
+
+Relacionamentos: 
+
+Autores possuem no minimo 1 e no maximo N Notícias,
+Notícias possuem no minimo 1 e no maximo 1 Autores;
