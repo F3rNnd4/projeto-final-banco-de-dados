@@ -74,6 +74,96 @@ CREATE TABLE alternativas (
 
 SELECT * FROM alternativas;
 
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) x = -2 e x = 2', 1);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) x = -1 e x = 2', 1);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) x = -2 e x = 1', 1);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) x = -1 e x = 1', 1);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) x¹ = 2 e X² = - 1', 2);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) x¹ = -10 e x² = -1', 2);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) x¹ = -5 e x² = 1', 2);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) x¹ = 5 e x² = 1', 2);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) k = ± 2', 3);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) k = + 2', 3);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) k = - 2', 3);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) k = 0', 3);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) Têm volume.', 4);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) Têm faces planas.', 4);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) São bidimensionais.', 4);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) Ocupam espaço.', 4);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) Área: 49π cm², Perímetro: 14π cm', 5);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) Área: 154π cm², Perímetro: 14π cm', 5);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) Área: 49π cm², Perímetro: 28π cm', 5);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) Área: 154 cm², Perímetro: 28π cm', 5);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) 8 cm', 6);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) 10 cm', 6);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) 12 cm', 6);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) 14 cm', 6);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) tan⁡(θ) = 3/4', 7);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) tan⁡(θ) = 4/3', 7);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) tan⁡(θ) = 3/5', 7);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) tan⁡(θ) = 6/8', 7);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) 8 cm', 8);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) 9 cm', 8);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) 10 cm', 8);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) 12 cm', 8);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) sin⁡(θ)=7/25', 9);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) sin⁡(θ)=24/25', 9);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) sin⁡(θ)=25/7', 9);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) sin⁡(θ)=24/7', 9);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) Uma linha reta que passa pelo ponto (0, 4).', 10);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) Uma parábola com vértice no ponto (2, 0).', 10);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) Uma hipérbole com assíntota em y = 4.', 10);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) Uma parábola com vértice no ponto (0, -4).', 10);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) (0, 6)', 11);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) (6, 0)', 11);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) (0, -2)', 11);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) (2, 0)', 11);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) 740 unidades', 12);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) 720 unidades', 12);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) 680 unidades', 12);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) 700 unidades', 12);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) 3', 13);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) 5', 13);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) 7', 13);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) 10', 13);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) 38,5', 14);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) 40,0', 14);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) 41,0', 14);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) 42,5', 14);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) 5/8 × 4/7', 15);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) 5/8 × 5/7', 15);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) 4/8 × 4/7', 15);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) 5/8 × 3/7', 15);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) R$ 2.300,00', 16);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) R$ 2.200,00', 16);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) R$ 2.500,00', 16);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) R$ 2.600,00', 16);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) R$ 1.870,00', 17);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) R$ 1.890,00', 17);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) R$ 1.950,00', 17);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) R$ 1.930,00', 17);
+
+INSERT INTO alternativas (texto, id_questao) VALUES ('A) R$ 1.000,00', 18);
+INSERT INTO alternativas (texto, id_questao) VALUES ('B) R$ 1.200,00', 18);
+INSERT INTO alternativas (texto, id_questao) VALUES ('C) R$ 1.400,00', 18);
+INSERT INTO alternativas (texto, id_questao) VALUES ('D) R$ 1600,00', 18);
+
 CREATE TABLE respostas (
     id_resposta SERIAL PRIMARY KEY,
     id_questao INT,
