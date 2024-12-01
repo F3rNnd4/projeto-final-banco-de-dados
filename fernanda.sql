@@ -6,7 +6,6 @@ Entidades:
 - Questão
 - Alternativas
 - Resposta
-- Resolução
 
 Atributos:
 
@@ -17,10 +16,10 @@ Atributos:
     - resposta
     - simulado
 
-- Resposta:                      - Resolução:
-    - id_resposta                    - id_resolucao
-    - id_questao                     - id_questao
-    - id_alternativa                 - id_resposta
+- Resposta:
+    - id_resposta
+    - id_questao
+    - id_alternativa
 
 Relacionamentos:
 
@@ -30,11 +29,8 @@ Relacionamentos:
 - Uma Questão possui 1 Resposta
 - Resposta é possuída por 1 Questão
 
-- Uma Questão possui 1 Resolução
-- Resolução é possuída por 1 Questão
-
-- Uma Resposta possui 1 Resolução
-- Resolução é possuída por 1 Resposta
+- Várias Alternativas podem ser a Resposta de uma Questão
+- Uma Resposta pode ser de N Alternativas
 
 CRIAÇÃO DAS TABELAS E INSERTS:
 
@@ -195,15 +191,3 @@ INSERT INTO respostas (id_questao, id_alternativa) VALUES
 (18, 70);
 
 SELECT * FROM respostas;
-
-INSERT INTO respostas (id_questao, id_alternativa) VALUES (1, 2);
-
-CREATE TABLE resolucoes (
-    id_resolucao SERIAL PRIMARY KEY,
-    id_questao INT,
-    id_resposta INT,
-    FOREIGN KEY (id_questao) REFERENCES questoes(id_questao),
-    FOREIGN KEY (id_resposta) REFERENCES respostas(id_resposta)
-);
-
-SELECT * FROM resolucoes;
