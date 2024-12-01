@@ -11,26 +11,23 @@
     Atributos:
 
 Entrevista:
-
 - id_entrevista
 - url_video
 
-Matéria: 
-
+Matérias: 
 - id_materia 
 - id_entrevista
 - nome_materia
 
-Dica
-
+Dica:
 - id_dica
 - descricao
 - url_dica
 - id_materia
 
-Relacionamentos:
+    Relacionamentos:
 
-- Uma Entrevista é única e se relaciona diretamente com Dicas .
+- Uma Entrevista é única e se relaciona diretamente com Dicas.
 - Uma Dica é única e se relaciona diretamente com Entrevistas.
 
 - Uma Materia de Dica pode ter N Dicas.
@@ -39,8 +36,6 @@ Relacionamentos:
 
 - Uma Entrevista pertence a 1 Materia.
 - Uma Materia pertence a 1 Entrevistas.
-
-
 
 
 CRIAÇÃO DAS TABELAS:

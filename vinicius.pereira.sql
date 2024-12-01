@@ -28,5 +28,3 @@ VALUES
 -- Consultar todas as Membros com suas atividades
 SELECT id, nome, idade, papel, instituicao, foto_url
 FROM Membros;
-
-
