@@ -24,28 +24,7 @@ O projeto consiste em um banco de dados para um portal de matemática, com todas
 
 ## Modelo Entidade-Relacionamento (MER):
 
-O **MER** de cada página foi desenvolvido no bloco de notas e está disponível nas prints abaixo:
-
-### Página de Simulado:
-
-```mer
-```
-### Página de Entrevistas e Dicas:
-
-```mer
-```
-### Página de Carreiras e Estágios:
-
-```mer
-```
-### Página de Sobre nós:
-
-```mer
-```
-### Página de Notícias:
-
-```mer
-```
+O **MER** de cada página foi desenvolvido nos arquivos .sql e está disponível no repositório.
 
 ## Diagrama de Entidades e Relacionamentos (DER):
 
