@@ -72,12 +72,12 @@ INSERIR DADOS NAS TABELAS:
 
 INSERT INTO entrevistas (url_video) 
 VALUES 
-('https://www.youtube.com/watch?v=i7MZpiRht2E'),   -- Álgebra
+('https://www.youtube.com/watch?v=i7MZpiRht2E'), -- Álgebra
 ('https://www.youtube.com/watch?v=th5k6bzSDTA'), -- Geometria
 ('https://www.youtube.com/watch?v=6o1OhV_RZUU'), -- Trigonometria
 ('https://www.youtube.com/watch?v=xpv-SWbDUr8'), -- Funções e Gráficos
 ('https://www.youtube.com/watch?v=np6rfsWo_3g'), -- Estatística e Probabilidade
-('https://www.youtube.com/watch?v=vxKV2UZkKm8');  -- Matemática Financeira
+('https://www.youtube.com/watch?v=vxKV2UZkKm8'); -- Matemática Financeira
 
 
 
