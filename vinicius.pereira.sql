@@ -1,45 +1,50 @@
--- PÁGINA: SOBRE NÓS
+-- PÁGINA: SOBRE NÓS 
+
+MER 
+
+Entidades:
+Membros
+
+Atributos:
+id(Chave Primária)
+nome
+idade
+papel
+instituicao
+foto_url
+
+Relacionamento:
+Nenhum
+
 
 -- Criar banco de dados
 CREATE DATABASE Projeto;
 
+-- Usar o banco de dados criado
+USE Projeto;
 
--- Criar tabela Pessoas
-CREATE TABLE Pessoas (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+-- Criar tabela Membros
+CREATE TABLE Membros (
+    id INT AUTO_INCREMENT PRIMARY KEY, -- Chave primária
     nome VARCHAR(100) NOT NULL,
     idade INT NOT NULL,
     papel VARCHAR(50) NOT NULL,
     instituicao VARCHAR(100) NOT NULL,
-    foto_url VARCHAR(255),
-    atividade TEXT
+    foto_url VARCHAR(255), -- URL da foto opcional
+
 );
 
--- Inserir dados na tabela Pessoas
-INSERT INTO Pessoas (nome, idade, papel, instituicao, foto_url, atividade)
+-- Inserir dados na tabela Membros
+INSERT INTO Membros (nome, idade, papel, instituicao, foto_url, atividade)
 VALUES
-    ('Fernanda Louro', 17, 'P.O.', 'Estudante SESI SENAI', 'url_da_foto_fpo'),
-    ('Vinicius Valverde', 17, 'Scrum Master', 'Estudante SESI SENAI', 'url_da_foto_vv', ),
-    ('Vinicius Pereira', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_vp'),
-    ('Matheus Couto', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_mc', ),
-    ('Jéssica Prestelo', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_jp'),
-    ('Sarah Ribeiro', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_sr');
+    ('Fernanda Louro', 17, 'P.O.', 'Estudante SESI SENAI', 'url_da_foto_fpo', NULL),
+    ('Vinicius Valverde', 17, 'Scrum Master', 'Estudante SESI SENAI', 'url_da_foto_vv', NULL),
+    ('Vinicius Pereira', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_vp', NULL),
+    ('Matheus Couto', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_mc', NULL),
+    ('Jéssica Prestelo', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_jp', NULL),
+    ('Sarah Ribeiro', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_sr', NULL);
 
--- Consultar todas as pessoas com suas atividades
+-- Consultar todas as Membros
 SELECT id, nome, idade, papel, instituicao, foto_url, atividade
-FROM Pessoas;
+FROM Membros;
 
--- Criar tabela de Atividades
-CREATE TABLE Atividades (
-    id_atividade INT AUTO_INCREMENT PRIMARY KEY,
-    id_pessoa INT,
-    descricao TEXT NOT NULL,
-    data_inicio DATE,
-    data_fim DATE,
-    FOREIGN KEY (id_pessoa) REFERENCES Pessoas(id)
-);
-
--- Inserir atividades na tabela Atividades
-INSERT INTO Atividades (id_pessoa, descricao, data_inicio, data_fim)
-VALUES
-   
