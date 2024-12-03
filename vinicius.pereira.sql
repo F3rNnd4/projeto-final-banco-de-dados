@@ -25,26 +25,27 @@ USE Projeto;
 
 -- Criar tabela Membros
 CREATE TABLE Membros (
-    id INT AUTO_INCREMENT PRIMARY KEY, -- Chave primária
-    nome VARCHAR(100) NOT NULL,
-    idade INT NOT NULL,
-    papel VARCHAR(50) NOT NULL,
-    instituicao VARCHAR(100) NOT NULL,
-    foto_url VARCHAR(255), -- URL da foto opcional
+    id INT PRIMARY KEY, -- Chave primária
+    nome VARCHAR(100) ,
+    idade INT ,
+    papel VARCHAR(50) ,
+    instituicao VARCHAR(100) ,
+    foto_url VARCHAR(255) -- URL da foto opcional
 
 );
 
 -- Inserir dados na tabela Membros
-INSERT INTO Membros (nome, idade, papel, instituicao, foto_url, atividade)
+INSERT INTO Membros (nome, idade, papel, instituicao, foto_url)
 VALUES
-    ('Fernanda Louro', 17, 'P.O.', 'Estudante SESI SENAI', 'url_da_foto_fpo', NULL),
-    ('Vinicius Valverde', 17, 'Scrum Master', 'Estudante SESI SENAI', 'url_da_foto_vv', NULL),
-    ('Vinicius Pereira', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_vp', NULL),
-    ('Matheus Couto', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_mc', NULL),
-    ('Jéssica Prestelo', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_jp', NULL),
-    ('Sarah Ribeiro', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_sr', NULL);
+    ('Fernanda Louro', 17, 'P.O.', 'Estudante SESI SENAI', 'url_da_foto_fpo'),
+    ('Vinicius Valverde', 17, 'Scrum Master', 'Estudante SESI SENAI', 'url_da_foto_vv'),
+    ('Vinicius Pereira', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_vp'),
+    ('Matheus Couto', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_mc'),
+    ('Jéssica Prestelo', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_jp'),
+    ('Sarah Ribeiro', 16, 'Desenvolvedor', 'Estudante SESI SENAI', 'url_da_foto_sr');
 
 -- Consultar todas as Membros
-SELECT id, nome, idade, papel, instituicao, foto_url, atividade
+SELECT id, nome, idade, papel, instituicao, foto_url
 FROM Membros;
 
+ 
