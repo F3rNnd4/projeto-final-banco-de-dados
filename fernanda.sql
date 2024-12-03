@@ -3,13 +3,13 @@
 MER
 Entidades:
 
-- Questão
+- Questões
 - Alternativas
 - Resposta
 
 Atributos:
 
-- Questão:
+- Questões:
     - id_questao
     - enunciado
     - resposta
