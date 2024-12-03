@@ -1,20 +1,22 @@
 -- PÁGINA: SOBRE NÓS 
 
 MER 
-
 Entidades:
-Membros
+
+- Membros
 
 Atributos:
-id(Chave Primária)
-nome
-idade
-papel
-instituicao
-foto_url
+
+- id(Chave Primária)
+- nome
+- idade
+- papel
+- instituicao
+- foto_url
 
 Relacionamento:
-Nenhum
+
+- Nenhum
 
 
 -- Criar banco de dados

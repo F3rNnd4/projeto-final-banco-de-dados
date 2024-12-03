@@ -18,7 +18,7 @@ O projeto consiste em um banco de dados para um portal de matemática, com todas
 - **Fernanda Louro:** Página de Simulado;
 - **Jéssica Prestelo:** Página de Entrevistas e Dicas;
 - **Matheus Couto:** Página de Carreiras e Estágios;
-- **Sarah Ribeiro:** DER e Inserts de Dados do Portal;
+- **Sarah Ribeiro:** DER de todas páginas;
 - **Vinicius Pereira:** Página da Sobre nós;
 - **Vinicius Valverde:** Página de Notícias.
 
