@@ -194,3 +194,15 @@ INSERT INTO respostas (id_questao, id_alternativa) VALUES
 (18, 70);
 
 SELECT * FROM respostas;
+
+CONSULTA: 
+
+-- Seleciona o id da resposta, o enunciado da questão e o texto da alternativa
+SELECT r.id_resposta, q.enunciado, a.texto
+FROM respostas r
+-- Junta a tabela respostas com a tabela questoes com base no id da questão
+JOIN questoes q
+ON r.id_questao = q.id_questao
+-- Junta a tabela respostas com a tabela alternativas com base no id da alternativa
+JOIN alternativas a
+ON r.id_alternativa = a.id_alternativa;
