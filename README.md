@@ -13,6 +13,8 @@
 
 O projeto consiste em um banco de dados para um portal de matemática, com todas as funcionalidades e conteúdo do portal integrados ao banco. O projeto contempla o desenvolvimento de um Modelo Entidade-Relacionamento (MER) e um Diagrama de Entidades e Relacionamentos (DER), além das queries SQL.
 
+Linguagem utilizada: SQL ![PostgreSQL](https://www.postgresql.org/media/img/about/press/elephant.png)
+
 ## Papel de cada integrante:
 
 - **Fernanda Louro:** Página de Simulado;
