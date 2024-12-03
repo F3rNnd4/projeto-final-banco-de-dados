@@ -1,8 +1,8 @@
 MER
 Entidades:
 
-Autores;
-Notícias;
+- Autores;
+- Notícias;
 
 Atributos:
 
@@ -10,7 +10,7 @@ Autores:
 - id
 - Nome
 
-Notícias 
+Notícias:
 - id
 - Título 
 - Descrição 
@@ -18,8 +18,8 @@ Notícias
 
 Relacionamentos: 
 
-Autores possuem no minimo 1 e no maximo N Notícias,
-Notícias possuem no minimo 1 e no maximo 1 Autores;
+- Autores possuem no minimo 1 e no maximo N Notícias,
+- Notícias possuem no minimo 1 e no maximo 1 Autores;
 
 -- PÁGINA: NOTÍCIAS
 
