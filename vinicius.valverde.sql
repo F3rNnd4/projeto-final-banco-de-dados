@@ -29,8 +29,8 @@ CREATE DATABASE noticias;
 
 -- Cria a tabela Autores com id e nome
 CREATE TABLE Autores (
-    id SERIAL PRIMARY KEY, -- Coluna id com chave primária e auto incremento
-    nome VARCHAR(255) NOT NULL UNIQUE -- Coluna nome com valor único e não nulo
+    id SERIAL PRIMARY KEY, 
+    nome VARCHAR(255) NOT NULL UNIQUE 
 );
 
 -- Insere autores na tabela 
@@ -98,7 +98,7 @@ INNER JOIN Autores a ON n.autor_id = a.id
 WHERE n.id = 1;
 
 -- Seleciona as notícias em que o autor com ID 3 esteja associado com o seu nome 
-SELECT n.titulo, a.nome AS autor_nome , n.id AS noticia:
+SELECT n.titulo, a.nome AS autor_nome , n.id AS noticia
 FROM Noticias n
 INNER JOIN Autores a ON n.autor_id = a.id
 WHERE n.autor_id = 3;
