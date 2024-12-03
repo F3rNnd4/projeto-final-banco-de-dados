@@ -18,7 +18,6 @@ Relacionamento:
 
 - Nenhum
 
-
 -- Criar banco de dados
 CREATE DATABASE Projeto;
 
@@ -27,12 +26,12 @@ USE Projeto;
 
 -- Criar tabela Membros
 CREATE TABLE Membros (
-    id SERIAL PRIMARY KEY , -- Chave primária
+    id SERIAL PRIMARY KEY, -- Chave primária
     nome VARCHAR(100) ,
     idade INT ,
     papel VARCHAR(50) ,
     instituicao VARCHAR(100) ,
-    foto_url VARCHAR(255) -- URL da foto opcional
+    foto_url VARCHAR(255), -- URL da foto opcional
 
 );
 
