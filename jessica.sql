@@ -33,7 +33,6 @@ Dica:
 - Uma Materia de Dica pode ter N Dicas.
 - Uma Dica pertence a 1 Materia.
 
-
 - Uma Entrevista pertence a 1 Materia.
 - Uma Materia pertence a 1 Entrevistas.
 

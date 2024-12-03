@@ -1,20 +1,22 @@
 -- PÁGINA: SOBRE NÓS 
 
 MER 
-
 Entidades:
-Membros
+
+- Membros
 
 Atributos:
-id(Chave Primária)
-nome
-idade
-papel
-instituicao
-foto_url
+
+- id(Chave Primária)
+- nome
+- idade
+- papel
+- instituicao
+- foto_url
 
 Relacionamento:
-Nenhum
+
+- Nenhum
 
 
 -- Criar banco de dados
@@ -25,7 +27,7 @@ USE Projeto;
 
 -- Criar tabela Membros
 CREATE TABLE Membros (
-    id INT PRIMARY KEY, -- Chave primária
+    id SERIAL PRIMARY KEY , -- Chave primária
     nome VARCHAR(100) ,
     idade INT ,
     papel VARCHAR(50) ,
@@ -48,4 +50,3 @@ VALUES
 SELECT id, nome, idade, papel, instituicao, foto_url
 FROM Membros;
 
- 

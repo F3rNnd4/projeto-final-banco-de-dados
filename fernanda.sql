@@ -9,12 +9,15 @@ Entidades:
 
 Atributos:
 
-- Questão:                       - Alternativas:
-    - id_questao                     - id_alternativa
-    - enunciado                      - texto
-    - alternativas                   - questão_id
+- Questão:
+    - id_questao
+    - enunciado
     - resposta
-    - simulado
+
+- Alternativas:
+    - id_alternativa
+    - texto
+    - id_questao
 
 - Resposta:
     - id_resposta
