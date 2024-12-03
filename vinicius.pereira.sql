@@ -26,12 +26,13 @@ USE Projeto;
 
 -- Criar tabela Membros
 CREATE TABLE Membros (
-    id INT PRIMARY KEY, -- Chave primária
+    id SERIAL PRIMARY KEY, -- Chave primária
     nome VARCHAR(100) ,
     idade INT ,
     papel VARCHAR(50) ,
     instituicao VARCHAR(100) ,
-    foto_url VARCHAR(255) -- URL da foto opcional
+    foto_url VARCHAR(255), -- URL da foto opcional
+
 );
 
 -- Inserir dados na tabela Membros
@@ -47,3 +48,4 @@ VALUES
 -- Consultar todas as Membros
 SELECT id, nome, idade, papel, instituicao, foto_url
 FROM Membros;
+
